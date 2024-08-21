@@ -1,0 +1,4 @@
+dev-docker-compose.yml
+.vscode
+src/node_modules/
+src/package-lock.json
