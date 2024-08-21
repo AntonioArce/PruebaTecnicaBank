@@ -51,6 +51,7 @@ class Server{
 
     routes(){
         this.app.use( this.paths.auth, authRouter );
+        this.app.use( this.paths.products, productsRouter )
 
         this.app.use( this.paths.testConnection, ( req, res ) => {
             res.status(200).json({
